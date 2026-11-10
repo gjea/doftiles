@@ -1,0 +1,17 @@
+alias \
+\
+ls='ls -C -A -p --color=auto --group-directories-first' \
+reload='source ~/.zshrc' \
+q='exit' \
+rm='rm -i' \
+\
+gpp='g++ *.cpp -Wall && ./a.out' \
+path='echo -e ${PATH//:/\\n}' \
+\
+gs='git status' \
+ga='git add' \
+gc='git commit' \
+gcm='git commit -m' \
+gp='git push' \
+gl='git pull' \
+ginit='git init' \

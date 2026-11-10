@@ -1,0 +1,35 @@
+{
+  "buttons-per-row": "1/2",
+  "delay-command-ms": 0,
+  "css": "/home/jira/.config/wleave/style.css",
+  "buttons": [
+    {
+      "label": "shutdown",
+      "action": "systemctl poweroff",
+      "text": "Shutdown",
+      "icon": "/usr/share/wleave/icons/shutdown.svg",
+      "keybind": "s"
+    },
+    {
+      "label": "windows",
+      "action": "sudo /home/jira/scripts/switch_to_windows.sh",
+      "text": "Switch To Windows",
+      "icon": "/usr/share/wleave/icons/logout.svg",
+      "keybind": "w"
+    },
+    {
+      "label": "suspend",
+      "action": "systemctl suspend",
+      "text": "Suspend",
+      "icon": "/usr/share/wleave/icons/suspend.svg",
+      "keybind": "u"
+    },
+    {
+      "label": "reboot",
+      "action": "systemctl reboot",
+      "text": "Reboot",
+      "icon": "/usr/share/wleave/icons/reboot.svg",
+      "keybind": "r"
+    }
+  ]
+}
