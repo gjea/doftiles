@@ -1,0 +1,6 @@
+require("modules.startup")
+require("modules.keybinds")
+require("modules.monitors")
+require("modules.rules")
+require("modules.general")
+require("modules.defaults")
