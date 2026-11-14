@@ -4,6 +4,7 @@ ls='ls -C -A -p --color=auto --group-directories-first' \
 reload='source ~/.zshrc' \
 q='exit' \
 rm='rm -i' \
+mkdir= 'mkdir -p'\
 \
 gpp='g++ *.cpp -Wall && ./a.out' \
 path='echo -e ${PATH//:/\\n}' \
